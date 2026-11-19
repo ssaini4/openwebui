@@ -1,2 +1,2 @@
-{"services":{"web":{"dockerfile":"Dockerfile","public":true}},
+{"services":{"web":{"dockerfile":"Dockerfile","public":true,"memory":"2Gi"}},
  "migrate":{"service":"web","command":["python","-c","import open_webui.config"]}}
